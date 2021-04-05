@@ -2,13 +2,13 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>SubTab 1</ion-title>
+        <ion-title>SubTab 2</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">SubTab 1</ion-title>
+          <ion-title size="large">SubTab 2</ion-title>
         </ion-toolbar>
       </ion-header>
       <ion-button @click="router.push('/tabs/tab1/subtab1')">Go to subtab1</ion-button>
